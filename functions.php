@@ -35,3 +35,7 @@ require_once('inc/common/scripts.php');
 function arino_header(){
     get_template_part('template-parts/header/header');
 }
+// FOOTER PART
+function arino_footer(){
+    get_template_part('template-parts/footer/footer');
+}
